@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .main {
+        width: 768px;
+        height: auto;
+    }
+    header {
+        width: 768px;
+    }
+    .header-menu {
+        width: 768px;
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+    .header-menu img {
+        width: 100px;
+        height: 60px;
+      }
+      .header-nav {
+        display: none;
+      }
+      .header-coffee-menu {
+        display: none;
+      }
+      .button-icon-burger {
+        display: flex;
+    }
+    /* header end */
+}
