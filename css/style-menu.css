@@ -294,6 +294,23 @@ margin: 0 auto;
   font-size: 24px;
   line-height: 125%;
 }
+.button-icon-dark {
+  width: 60px;
+  height: 60px;
+  border: #665F55 solid 1px;
+  border-radius: 100px;
+  background-color: #E1D4C9;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  align-self: center;
+}
+.button-icon-dark span {
+  background-image: url("../img-menu/refresh.svg");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
 /* menu-grid-end */
 footer {
   width: 1440px;

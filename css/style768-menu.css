@@ -1,22 +1,21 @@
 @media screen and (max-width: 768px) {
     .container {
-        width: 768px;
+        width: 100%;
     }
     .main {
-        width: 768px;
+        width: 100%;
         height: auto;
     }
     header {
-        width: 768px;
+        width: 100%;
     }
     .header-menu {
-        width: 768px;
+        width: 100%;
         padding: 0 40px;
-        box-sizing: border-box;
     }
     .header-menu img {
-        width: 100px;
-        height: 60px;
+        width: auto;
+        height: auto;
       }
       .header-nav {
         display: none;
@@ -28,4 +27,63 @@
         display: flex;
     }
     /* header end */
+    .main-menu {
+      width: 100%;
+      height: auto;
+    }
+    .main-menu-container {
+      width: 100%;
+    }
+    .main-menu-container-offer {
+      width: 100%;
+      height: auto;
+    }
+    .main-menu-container-offer-txt {
+      width: 100%;
+      height: auto;
+    }
+    .main-menu-container-offer-tabs {
+      width: auto;
+    }
+    /* offer end */
+    .main-greed {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 14px;
+    }
+   .main-greed-unit:nth-child(n+5):nth-child(-n+8) {
+      display: none;
+  }
+  .main-greed-unit {
+    height: 506px; /* для перефектпикселя*/
+  }
+  .main-greed-unit img {
+    width: 100%;
+    height: 100%;
+  }
+  .main-greed-unit-descr {
+    width: 100%;
+  }
+  .button-icon-dark {
+    display: flex;
+  }
+  /* menu-grid-end */
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 0 40px;
+  }
+  .contacts {
+    width: 100%;
+    height: auto;
+    padding: 100px 60px;
+    flex-direction: column;
+  }
+  .contacts-offer {
+    width: 100%;
+    height: auto;
+  }
+  .contacts-info {
+    width: 100%;
+    height: auto;
+  }
 }
